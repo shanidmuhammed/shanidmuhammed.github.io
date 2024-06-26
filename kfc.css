@@ -1,9 +1,3 @@
-@font-face {
-    font-family: 'National2';
-    src: url(fonts/TestNational-Regular-BF663c3f4a83f85.otf) format('otf');
-    font-weight: normal;
-    font-style: normal;
-}
 body,html {
     margin: 0;
 }
@@ -311,7 +305,8 @@ main {
 }
 footer {
     display: grid;
-    grid-template-columns: 250px 200px;
+    grid-template-columns: 250px 176px 145px 160px 220px 200px 145px 100px;
+    column-gap: 0px;
     height: 300px;
     background-color: #202124;
     align-items: start;
@@ -335,4 +330,24 @@ footer {
 }
 .links ul a:hover{
     color: white;
+}
+.find-kfc a{
+    font-family: sans-serif;
+    color: #e3e3e3;
+    font-size: 14px;
+}
+.Copyright {
+    font-family: sans-serif;
+    margin-top: 60px;
+    font-size: 12px;
+    text-align: center;
+    color: #dbdbdb;
+    display: inline-block;
+}
+.social-media {
+    display: inline-block;
+    word-spacing: 8px;
+    margin-left: 10px;
+    bottom: 10px; /* Adjust the distance from the bottom */
+    right: 20px; 
 }
