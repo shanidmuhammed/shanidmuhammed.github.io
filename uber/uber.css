@@ -1,0 +1,272 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    height: 900px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 160px 295px 1fr;
+}
+a {
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: white;
+    text-decoration:none;
+    margin-left: 120px;
+    margin-right: 0;
+}
+.uber-text:first-letter {
+    letter-spacing: -2px;
+    font-size: 35px;
+    font-weight: 350;
+}
+nav ul {
+    list-style-type: none;
+}
+.navbar-left ul li {
+    float: left;
+    text-align: center;
+    border-radius: 50px;
+    width: 4em;
+    height: 2em;
+}
+nav ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.navbar-right {
+    margin-left: 500px;
+}
+.navbar-right ul {
+    color: white;
+    display: flex;
+    margin-left: 135px;
+}
+.navbar-right ul li {
+    text-align: center;
+    border-radius: 50px;
+    width: 4em;
+    height: 2em;
+}
+li:hover {
+    background-color: rgb(40, 40, 40);
+}
+.sign-up-button {
+    background-color: white;
+    width: 72px;
+    padding: 6px 5px 7px 5px;
+    border-radius: 20px;
+    font-weight: 500;    
+    font-size: 14px;
+    margin-top: -4px;
+}
+.global-image {
+    width: 16px;
+}
+.head-container {
+    display: flex;
+}
+.input-div {
+    margin-left: 180px;
+    margin-top: 140px;
+}
+.image-div {
+  margin-left: 100px;
+}
+.Go-uber {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    font-size: 54px;
+    word-spacing: -5px;
+    width: 500px;
+}
+.uber {
+    display: block;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.uber::first-letter {   
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.input-location {
+    color: black;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 14px;
+}
+.see-prices-button {
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.see-prices-button:hover{
+    background-color: rgb(238, 238, 238);
+    transition: 0.15s;
+}
+main {
+    background-color: white;
+}
+.container {
+    display: flex;
+    margin-bottom: 55px;
+}
+.image-main {
+    margin-top: 65px;
+    margin-left: 100px;
+ }
+  .div {
+    margin-left: 130px;
+    margin-top: 140px;
+}
+.text-main {
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    font-size: 54px;
+    word-spacing: -5px;
+    width: 400px;
+    line-height: 60px;
+}
+.last-text-main {
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    word-spacing: -5px;
+    width: 500px;
+    line-height: 40px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.description-text {
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.get-started-button {
+    color: white;
+    background-color: black;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.get-started-button:hover {
+    background-color: rgb(51, 51, 51);
+    transition: 0.15s;
+}
+.have-account {
+    margin-left: 20px;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: rgb(228, 222, 222);
+    color: black;
+    font-size: 16px;
+}
+.qr-div {
+    background-color: rgb(246, 246, 246);
+    height: 410px;
+}
+.qr.container{
+    display: flex;
+}
+.qr-text {
+    margin-top: 50px;
+    margin-left: 100px;
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    word-spacing: -5px;
+}
+.qr-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+.qr {
+    display: inline-block;
+    background-color: white;
+    margin-left: 190px;
+    width: 520px;
+}
+.uber-app {
+    padding: 20px;
+    width:"150px"; 
+    height: "150px";
+}
+.download-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+footer {
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.footer-div {
+    padding-top: 3px;
+}
+footer .uber-text:first-letter {
+    letter-spacing: -2px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+footer .uber-text {
+    margin-top: 100px;
+    font-size: 24px;
+    margin-left: 200px;
+}
+footer .visit-text {
+    font-size: 16px;
+    margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+footer table{
+    margin-left: 200px;
+}
+footer table th{
+    font-size: 18px;
+    font-weight: 600;
+}
+footer table td{
+    font-size: 14px;
+}
+footer table th,td{
+    text-align: left;
+    width: 300px;
+    height: 40px;
+}
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    background-color:white; /* Blue background */
+    color: black; /* White text */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000; /* Make sure it’s above other elements */
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    text-align: center;
+    transform: translateY(100%);
+    transform: translateY(0);
+}
+
+#scrollToTopBtn:hover {
+
+}
