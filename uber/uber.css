@@ -178,11 +178,11 @@ main {
     height: 410px;
 }
 .qr.container{
-    display: flex;
 }
 .qr-text {
     margin-top: 50px;
-    margin-left: 100px;
+    padding-top: 70px;
+    margin-left: 200px;
     color: black;
     font-weight: 700;
     font-size: 36px;
@@ -193,9 +193,8 @@ main {
     margin-bottom: 10px;
 }
 .qr-first {
-    display: inline-block;
     background-color: white;
-    margin-left: 190px;
+    margin-left: 95px;
     width: 540px;
 }
 .qr-second {
@@ -212,6 +211,7 @@ main {
 .download-container {
     display: flex;
     flex-direction: column;
+    margin-top: 60px;
 }
 .download-container span{
 }
