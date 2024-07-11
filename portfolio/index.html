@@ -29,7 +29,7 @@
                     <a class="link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#testmonial">Skills</a>
+                    <a class="link" href="#skills">Skills</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#blog">Blog</a>
@@ -202,7 +202,7 @@
     </section> <!-- end of section -->
 
     <!-- testimonial section -->
-    <section class="section" id="testmonial">
+    <section class="section" id="skills">
         <div class="container text-center">
             <p class="section-subtitle">What Skills I have ?</p>
             <h6 class="section-title mb-6">Technical skills</h6>
@@ -293,13 +293,14 @@
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
             <!-- contact form -->
-            <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
+                    <input type="hidden" name="access_key" value="0f126ee0-cb2a-4891-a26e-34155b7ef254">
                     <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>
+                        <input type="text" name="name" size="50" class="form-control" placeholder="Your Name" required>
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email" requried>
+                        <input type="email" name="email" class="form-control" placeholder="Enter Email" requried>
                     </div>
                     <div class="form-group col-sm-12">
                         <textarea name="comment" id="comment" rows="6" class="form-control"
