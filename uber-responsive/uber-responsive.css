@@ -1,0 +1,67 @@
+body,html {
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    background-color: black;
+}
+@media (max-width:1199.98px) {
+    .font-sm-20 {
+        font-size: 20px;
+    }
+}
+@media (min-width:1200px) {
+    .font-lg-24 {
+        font-size: 24px;
+    }
+}
+a {
+    letter-spacing: 0px;
+    color: white;
+    text-decoration:none;
+}
+.uber-text-first-letter {
+    letter-spacing: -2px;
+    font-size: 1.5em;
+    font-weight: 350;
+}
+nav ul {
+    list-style-type: none;
+}
+.navbar-left ul li {
+    float: left;
+    border-radius: 50px;
+    width: 4em;
+    height: 2em;
+}
+nav ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.navbar-right ul {
+    color: white;
+    display: flex;
+}
+.navbar-right ul li {
+    text-align: center;
+    border-radius: 50px;
+    width: 4em;
+    height: 2em;
+}
+li:hover {
+    background-color: rgb(40, 40, 40);
+}
+.sign-up-button {
+    background-color: white;
+    width: 72px;
+    padding: 6px 5px 7px 5px;
+    border-radius: 20px;
+    font-weight: 500;    
+    font-size: 14px;
+    margin-top: -4px;
+}
+.global-image {
+    width: 16px;
+}

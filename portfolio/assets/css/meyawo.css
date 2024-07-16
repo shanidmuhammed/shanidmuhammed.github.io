@@ -12,7 +12,8 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
-@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+/* @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i"); */
+
 :root {
   --blue: #1e549f;
   --indigo: #695aa6;
@@ -2305,6 +2306,7 @@ textarea.form-control {
 
 .form-group {
   margin-bottom: 1rem;
+  text-align: left;
 }
 
 .form-text {
@@ -12231,4 +12233,7 @@ pre .code {
 
 .section-lg {
   padding: 100px 0 !important;
+}
+.form-group span{
+    color: red;
 }

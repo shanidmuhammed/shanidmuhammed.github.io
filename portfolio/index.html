@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Baloo+Paaji" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo+Paaji">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -293,18 +298,21 @@
             <p class="section-subtitle">How can you communicate?</p>
             <h6 class="section-title mb-5">Contact Me</h6>
             <!-- contact form -->
-            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form col-md-10 col-lg-8 m-auto">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form col-md-10 col-lg-8 m-auto" onsubmit="return validateForm()">
                 <div class="form-row">
                     <input type="hidden" name="access_key" value="0f126ee0-cb2a-4891-a26e-34155b7ef254">
                     <div class="form-group col-sm-6">
-                        <input type="text" name="name" size="50" class="form-control" placeholder="Your Name" required>
+                        <input type="text" name="name" id="name" onkeyup="validateName()" size="50" class="form-control" placeholder="Your Name">
+                        <span id="name-error"></span>
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" name="email" class="form-control" placeholder="Enter Email" requried>
+                        <input type="email" name="email" id="email" onkeyup="validateEmail()" class="form-control" placeholder="Enter Email">
+                        <span id="email-error"></span>
                     </div>
                     <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6" class="form-control"
+                        <textarea name="comment" id="comment" onkeyup="validateMessage()" rows="6" class="form-control"
                             placeholder="Write Something"></textarea>
+                        <span id="message-error"></span>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
                         <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
@@ -341,7 +349,7 @@
 
     <!-- Meyawo js -->
     <script src="assets/js/meyawo.js"></script>
-
+    <script src="assets/js/validation.js"></script>
 </body>
 
 </html>

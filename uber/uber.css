@@ -76,6 +76,9 @@ li:hover {
 .image-div {
   margin-left: 100px;
 }
+.image-div img{
+    width: auto;
+}
 .Go-uber {
     display: inline-block;
     color: white;
