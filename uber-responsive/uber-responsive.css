@@ -1,6 +1,8 @@
 body,html {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+
 }
 header {
     font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
@@ -64,4 +66,261 @@ li:hover {
 }
 .global-image {
     width: 16px;
+}
+.relative-position {
+}
+.input-div {
+    
+}
+.image-div {
+}
+.image-div img{
+}
+.Go-uber {
+    color: white;
+    font-weight: 700;
+    font-size: 54px;
+    word-spacing: -5px;
+    width: 500px;
+}
+.uber {
+    display: block;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.uber::first-letter {   
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.input-location {
+    color: black;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 14px;
+}
+.see-prices-button {
+    width: 130px;
+    height: 50px;
+    border-radius: 12px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+.see-prices-button:hover{
+    background-color: rgb(238, 238, 238);
+    transition: 0.15s;
+}
+
+main {
+    background-color: white;
+}
+.container-uber {
+    margin-bottom: 55px;
+}
+.image-main {
+    margin-top: 65px;
+ }
+  .div {
+}
+.text-main {
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    font-size: 54px;
+    word-spacing: -5px;
+    width: 400px;
+    line-height: 60px;
+}
+.last-text-main {
+    display: inline-block;
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    word-spacing: -5px;
+    width: 500px;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+.description-text {
+    font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.get-started-button {
+    color: white;
+    background-color: black;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.get-started-button:hover {
+    background-color: rgb(51, 51, 51);
+    transition: 0.15s;
+}
+.have-account {
+    margin-left: 20px;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+    text-decoration-color: rgb(228, 222, 222);
+    color: black;
+    font-size: 16px;
+}
+
+
+.qr-div {
+    background-color: rgb(246, 246, 246);
+}
+.qr.container{
+}
+.qr-text {
+    color: black;
+    font-weight: 700;
+    font-size: 36px;
+    word-spacing: -5px;
+}
+.qr-container {
+    display: flex;
+}
+.qr-first {
+    background-color: white;
+}
+.qr-second {
+    display: inline-block;
+    background-color: white;
+}
+.qr-image {
+}
+.uber-app {
+}
+.download-container {
+    display: flex;
+    flex-direction: column;
+}
+.download-container span{
+}
+.download-text {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer {
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.footer-div {
+    padding-top: 3px;
+}
+footer .uber-text:first-letter {
+    letter-spacing: -2px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+footer .uber-text {
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 24px;
+}
+footer .visit-text {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 80px;
+}
+footer table{
+    margin-left: 200px;
+}
+footer table th{
+    font-size: 18px;
+    font-weight: 600;
+}
+footer table td{
+    font-size: 14px;
+}
+footer table th,td{
+    text-align: left;
+    width: 300px;
+    height: 40px;
+}
+#scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Hidden by default */
+    background-color:white; /* Blue background */
+    color: black; /* White text */
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000; /* Make sure it’s above other elements */
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    text-align: center;
+    transform: translateY(100%);
+    transform: translateY(0);
+}
+
+#scrollToTopBtn:hover {
+
+}
+.icon-container {
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-bottom: 60px;
+}
+.fa {
+    width: 18px;
+    margin-right: 90px;
+}
+.icon {
+    margin-right: 90px;
+    
+}
+.fa-facebook {
+    text-align: end;
+    color: black;
+    background-color: white;
+    padding-top: 2px;
+    padding-right: 1px;
+}
+footer span{
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: auto;
+}
+.language-text {
+    margin-left: 370px;
+}
+.play-store {
+    margin-left: 200px;
+}
+
+.copyright-text,footer a {
+    display: inline;
+    margin-left: 200px;
+    color: #AFAFAF;
+    font-size: 12px;
+}
+.footer-links{
+    list-style-type: none;
+    display: flex;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+.copyright-text{
+    margin-right: 780px;
+
+}
+.footer-links li{
+
+}
+.footer-links a{
+    margin: 0;
+    margin-right: 30px;
 }
