@@ -223,17 +223,13 @@ footer .uber-text:first-letter {
 }
 footer .uber-text {
     margin-top: 100px;
-    margin-left: 200px;
     font-size: 24px;
 }
 footer .visit-text {
     font-size: 16px;
     margin-top: 30px;
-    margin-left: 200px;
-    margin-bottom: 80px;
 }
 footer table{
-    margin-left: 200px;
 }
 footer table th{
     font-size: 18px;
@@ -271,12 +267,11 @@ footer table th,td{
 }
 .icon-container {
     margin-top: 70px;
-    margin-left: 200px;
     margin-bottom: 60px;
 }
 .fa {
     width: 18px;
-    margin-right: 90px;
+    /* margin-right: 90px; */
 }
 .icon {
     margin-right: 90px;
@@ -298,7 +293,6 @@ footer span{
     margin-left: 370px;
 }
 .play-store {
-    margin-left: 200px;
 }
 
 .copyright-text,footer a {
